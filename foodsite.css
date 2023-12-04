@@ -1,0 +1,153 @@
+.item1 { grid-area: a; 
+    background-color: rgb(222,225,220) !important;
+}
+.item2 { grid-area: b; 
+    background-color: rgb(196,205,193) !important;
+
+}
+.item3 { grid-area: c; 
+    background-color: rgb(222,225,220)!important;
+}
+.item4 { grid-area: d; 
+    background-color: rgb(146, 175, 180) !important;
+}
+.item5 { grid-area: e; 
+    background-color: rgb(222,225,220) !important;
+}
+.item6 { grid-area: f; 
+    background-color: rgb(47,87,93) !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'a a a a a a'
+    'b b b b b b'
+    'c d d d e e'
+    'f f f f f f'
+    ;
+  gap: 1px;
+  background-color: rgb(41, 39, 39);
+  padding: 1px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.border{
+    border: 3px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.center{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-btn{
+
+    background-color: rgb(101,139,111);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:5px;
+    margin-left: 250px
+}
+
+.download-btn:hover {
+    background-color:rgb(66, 90, 72);
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 20px;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+body{
+    margin: 3px;
+    background-color: rgb(146, 175, 180)
+}
+
+h1{
+float: left;
+font-size: 50px;
+}
+
+h3{
+    float: center;
+    font-size: 30px;
+    }
+h4{
+    margin: 5px;
+    font-size: 50px;
+}
+h5{
+    margin: 5px;
+    font-size:30px;
+}
+
+a{
+color: rgb(41, 39, 39);
+font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    margin: 3px;
+}
+
+#review{
+    display: inline;
+}
+
+#here{
+    font-size: 30px;
+}
+
+#contactuspic{
+    display: wrap;
+    margin-left: 850px;
+    margin-top: -200px;
+    width: 500px;
+    height:auto;
+}
+
+#pretext{
+    font-size: 20px;
+}
+
+#address{
+    font-size: 20px;
+}
